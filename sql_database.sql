@@ -1,0 +1,43 @@
+
+
+CREATE TABLE tbl_Products(
+    product_id int NOT NULL,
+    product_name VARCHAR(255) NOT NULL,
+    product_descpit VARCHAR(2000),
+    product_img VARCHAR(255) NOT NULL,
+    price DECIMAL(6,2) NOT NULL    
+    );
+
+ INSERT INTO tbl_User (ID, FName, LName, Email, Password)
+
+INSERT into tbl_products(product_id,product_name,product_descpit,product_img,price)
+    VALUES(1,"Magician","The Magician is associated with the planet, Mercury and carries with it skill, logic, and intellect. The number of the Magician is one, the number of beginnings. The Magician is the bridge between the world of the spirit and the world of humanity. His right hand holds a staff raised toward the sky and his left hand points to the earth. He takes the power of the Universe and channels it through his own body and directs it to the physical plane.","images/001.jpg", 34.53),
+          (2,"Priestess","The High Priestess is also known as Persephone, Isis, the Corn Maiden and Artemis. She sits at the gate before the great Mystery, as indicated by the Tree of Life in the background. She sits between the darkness and the light, represented by the pillars of Solomon�s temple, which suggests it is she who is the mediator of the passage into the depth of reality.","images/002.jpg", 45.99),
+          (3,"Empress","The Empress is the archetypal Earth Mother, the Anima, the Feminine Principle, Demeter, Freyja and the Goddess of Fertility. Ruled by Venus, the planet of love, creativity, fertility, art, harmony, luxury, beauty and grace.","images/003.jpg", 65.09),
+          (4,"Emperor","The Emperor is the complement to the Empress. He is the Masculine Principle, the Animus and the Patriarch. He represents power and authority, and his stern attitude is quite a departure from the sensual beauty of the Empress. The Emperor has a long, white beard, a symbol of his experience.","images/004.jpg", 21.00),
+          (5,"Heirophant","The Hierophant is represented by a religious figure, sitting within a formal church environment. He is wearing three elaborate vestments of his office that represent the three worlds. The crown he is wearing has three tiers to. His right hand is raised in benediction, the same hand the Magician has raised.","images/005.jpg", 45.53),
+          (6,"Lovers","The sign associated with the Lovers is Gemini. The two figures in the Lovers card are blessed and protected by the angel in the clouds above them. Angels, in general, represent the refinement of earthly desires. This angel, in particular, is Raphael, the angel of Air. One of the associations of Air is communication, necessary for a healthy relationship.","images/006.jpg", 23.96),
+          (7,"Chariot","The Chariot is associated with the astrological sign of Cancer. He sits within a canopy of six-pointed stars, representing the celestial influences at work in this Tarot card. The crescent moons on the man�s shoulders are outward facing to refer to the formative world.","images/007.jpg", 6.23),
+          (8,"Justice","Under a golden sky, a woman gently pats a lion on its forehead and lower jaw. The woman gazes down at the lion with a peaceful smile on her face and appears to be successfully taming this wild beast. The fact that Strength is represented by a woman indicates that this card is not focused on pure physical strength.","images/008.jpg", 134.34),
+          (9,"Hermit","The Hermit stands alone on the top of a mountain with a lantern in his hand. Mountains typically symbolise achievement, growth, and accomplishment. The Hermit has attained his spiritual pinnacle and is ready to share his knowledge with others. He is also continuing the path he has chosen, committed to his goal of ultimate awareness. The star in the lantern is a six-pointed star (the Seal of Solomon, a symbol of wisdom).","images/009.jpg", 23.45),
+          (10,"Wheel of Fortune","The Wheel of Fortune is highly symbolic. The angel in the top left corner is Aquarius, the eagle is Scorpio, the lion is Leo and the bull is Taurus. These are the four fixed signs of the Zodiac but all have wings signifying stability amidst movement and change. The book they each have in their hands is the Torah, representing wisdom.","images/010.jpg", 56.55),
+          (11,"Hunger","Justice is ruled by Libra and the card number is 11. The figure of Justice sits in her chair, cloaked in red and holding a sword in her right hand and scales in her left. She wears a crown with a small square on it representing well-ordered thoughts. Notice the clasp holding the cloak together.","images/011.jpg", 12.43),
+          (12,"Hanged Man","The Hanged Man shows a man suspended, upside-down, from the living World Tree, rooted in the underworld and supporting the heavens. Given the serene expression on his face, it is believed he is hanging on the tree of his own will. His right foot is bound to the tree but his left foot remains free, bent at the knee and tucked in behind his right leg.","images/012.jpg", 87.97),
+          (13,"Death","The Death card shows Death himself riding on a white horse, holding a black and white flag. Death is portrayed as a skeleton as the skeletal bones are the part of the body that survives death. The armour he is wearing indicates that he is invincible and unconquerable. Indeed, no-one has yet triumphed over death.","images/013.jpg", 43.03),
+          (14,"Temperance","On the Temperance card stands a winged angel. The angel is actually a hermaphrodite (the child of Hermes and Aphrodite), showing a balance between the genders. The angel has one foot on dry land, representative of the material world, and one foot in the water, representative of the subconscious.","images/014.jpg", 45.23),
+          (15,"Devil","The card of the Devil portrays a Satyr, a creature that is half man and half goat. In many myths, the goat was considered an unclean and lustful animal. However, the goat also symbolises the scapegoat, the person or thing upon which people project the inferior side of themselves in order to feel better about themselves. Thus the Devil is the scapegoat we blame for our troubles in life.","images/015.jpg", 43.35),
+          (16,"Tower","The Tower shows a tall tower pitched atop a craggy mountain. Lightning strikes and flames burst from the building�s windows. People are seen to be leaping from the tower in desperation, wanting to flee such destruction and turmoil.","images/016.jpg", 64.45),
+          (17,"Star","The Star card shows a naked woman kneeling at the edge of a small pool. The woman holds two containers of water. She pours the water out to nourish the earth and to continue the cycle of fertility, represented by the lush greenery around her.","images/017.jpg", 34.31),
+          (18,"Moon","The Moon is the card of intuition, dreams and the unconscious. The Moon provides light as a reflection of the Sun, yet this light is dim, uncertain, and only vaguely illuminates our path as we journey toward higher consciousness.","images/018.jpg", 36.34),
+          (19,"Sun","The Sun is an image of optimism and fulfilment, the dawn that follows the darkest night. As the source of all life on earth, the Sun represents the source of life itself. The child playing joyfully in the foreground represents the happiness of our inner spirit when we are in tune with our truest Self.","images/019.jpg", 521.12),
+          (20,"Judement","One of our most popular products","images/020.jpg", 32.12),
+          (21,"Aeon","The Judgement card shows a number of naked men, women and children rising up from their graves, arms outspread and responding to the trumpet call of the archangel, Gabriel, who hovers high above them.","images/021.jpg", 5.11),
+          (22,"World","In the centre of the World is a dancing figure, rejoicing in the completion of the journey and celebrating not only this completion but also the new beginnings it promises. The dancer has one leg crossed over the other, just like the Hanged man.","images/022.jpg", 123.23),
+          (23,"Minor 1","One of our most popular products","images/023.jpg", 15.34),
+          (24,"Minor 2","One of our most popular products","images/024.jpg", 12.56),
+          (25,"Minor 3","One of our most popular products","images/025.jpg", 344.63),
+          (26,"Minor 4","One of our most popular products","images/026.jpg", 123.12),
+          (27,"Minor 6","One of our most popular products","images/027.jpg", 1.23),
+          (28,"Minor 7","One of our most popular products","images/028.jpg", 2.23),
+          (29,"Fool","One of our most popular products","images/029.jpg", 344.54),
+          (30,"Jester","One of our most popular products","images/030.jpg", 123.21);

@@ -1,0 +1,67 @@
+.frame_design{
+    background: #094956;
+    text-align:center;
+    font: 14px "arial" sans-serif, comic sans;
+    width: 40%;
+    color: #ffffff;
+}
+.control_font{
+    text-align:center;
+    font: 14px "arial" sans-serif, comic sans;
+    color: #ffffff;
+}
+.button_style{
+    background: #02042e;
+    text-align:center;
+    color: rgb(185, 185, 185);
+    width: 130px;
+    height: 28px;
+    font: 11px "arial" sans-serif, comic sans;
+}
+.textsyle1{
+    font: 14px "arial" sans-serif, comic sans;
+    color: #F1DC26;
+}
+.login{  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: #094956;
+    border-radius: 15px ;  
+    color: #ffffff;
+    text-align: center;  
+} 
+.products{  
+    width: 1300px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 50px;  
+    padding: 80px;  
+    background: #094956;
+    border-radius: 15px ;  
+    color: #ffffff;
+    text-align: center;  
+    
+} 
+.dead{  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: #094956;
+    border-radius: 15px ;  
+    color: #ffffff;
+    text-align: center;  
+} 
+
+a:link, a:visited {
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(37, 37, 37);
+  }
